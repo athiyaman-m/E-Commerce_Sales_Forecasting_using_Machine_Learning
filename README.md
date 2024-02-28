@@ -1,46 +1,44 @@
-# E-Commerce_Sales_Forecasting_using_Machine_Learning
-E-commerce sales forecasting predicts future sales based on historical data, market trends, and various other factors. Traditional methods often need to capture the complexity of the ever-changing online market. Here’s where Machine Learning steps in, transforming the way businesses make informed decisions.
+# E-Commerce Sales Forecasting using Machine Learning
 
+## Project Overview
+This project focuses on predicting product sales in the e-commerce domain using machine learning techniques. The dataset used comes from an e-commerce platform, providing insights into customer behaviors, temporal patterns, and geographical distribution. The predictive model employs the CatBoost regression algorithm, and hyperparameter tuning is performed using Bayesian Optimization.
 
-E-Commerce Sales Prediction and Analysis
-Overview
-This project focuses on predicting product sales in the e-commerce domain using machine learning techniques. The dataset used comes from an e-commerce platform and contains valuable insights into customer behaviors, temporal patterns, and geographical distribution. The predictive model employs the CatBoost regression algorithm, and hyperparameter tuning is performed using Bayesian Optimization.
+## Table of Contents
+1. **Data Loading and Libraries**
+   - Introduction to the libraries used for data analysis and machine learning.
+   - Explanation of the data loading process using Pandas from a CSV file.
 
-Table of Contents
-Data Loading and Libraries
-Data Cleaning and Preprocessing
-Exploratory Data Analysis (EDA)
-Feature Engineering
-Model Development
-Time Series Cross-Validation
-Multiple Model Management
-Visualization and Interpretability
-Data Loading and Libraries
-This section outlines the initial setup, including the libraries used for data analysis and machine learning. It describes the process of loading the e-commerce data from a CSV file using the Pandas library.
+2. **Data Cleaning and Preprocessing**
+   - Detailed steps taken to clean and prepare the dataset for analysis.
+   - Handling missing values, converting date columns, and addressing canceled invoices.
+   - Filtering data based on stock codes, descriptions, and customer information.
 
-Data Cleaning and Preprocessing
-Here, the README discusses the steps taken to clean and prepare the dataset for analysis. It covers handling missing values, converting date columns, and addressing canceled invoices. The cleaning process also includes filtering data based on stock codes, descriptions, and customer information.
+3. **Exploratory Data Analysis (EDA)**
+   - Visualizing various aspects of the data to gain insights.
+   - Exploration of stock codes, descriptions, customer behaviors, and geographical distribution.
 
-Exploratory Data Analysis (EDA)
-This section highlights the exploratory data analysis, which involves visualizing various aspects of the data. It provides insights into stock codes, descriptions, customer behaviors, and the geographical distribution of customers.
+4. **Feature Engineering**
+   - Explanation of derived features to enhance the dataset.
+   - Creation of features related to daily product sales, revenue, and temporal patterns.
+   - Exploration and preprocessing of unit prices and quantities.
 
-Feature Engineering
-The README explains how additional features are derived to enhance the dataset. These new features are related to daily product sales, revenue, and temporal patterns. It also covers the exploration and preprocessing of unit prices and quantities.
+5. **Model Development**
+   - Introduction to the CatBoost regression model as the chosen predictive model.
+   - Outline of the hyperparameter definition process and hyperparameter tuning using Bayesian Optimization.
 
-Model Development
-This section introduces the predictive model used in the project - the CatBoost regression model. It outlines the process of defining hyperparameters and performing hyperparameter tuning using Bayesian Optimization.
+6. **Time Series Cross-Validation**
+   - Explanation of the implementation of time series cross-validation to assess model performance over different time periods.
 
-Time Series Cross-Validation
-The README explains the implementation of time series cross-validation, a crucial step in evaluating the model's performance over different time periods.
+7. **Multiple Model Management**
+   - Description of the management of multiple CatBoost models.
+   - Coverage of training and evaluation of models using various features and hyperparameters.
 
-Multiple Model Management
-This section describes the management of multiple CatBoost models. It covers the training and evaluation of models using various features and hyperparameters.
+8. **Visualization and Interpretability**
+   - Focus on visualization and interpretability.
+   - Utilization of SHAP (SHapley Additive exPlanations) for interpreting model results, hyperparameter optimization, and feature importance.
 
-Visualization and Interpretability
-The final section focuses on visualization and interpretability. It mentions the use of SHAP (SHapley Additive exPlanations) to interpret model results, hyperparameter optimization, and feature importance.
-
-License
+## License
 This project is licensed under the MIT License.
 
-Acknowledgments
-The project acknowledges the tools used, including CatBoost and SHAP, for their contributions to the implementation.
+## Acknowledgments
+Acknowledgment of the tools used, giving credit to CatBoost and SHAP for their contributions to the project implementation.
