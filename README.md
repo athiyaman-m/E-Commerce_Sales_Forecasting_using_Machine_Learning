@@ -37,8 +37,5 @@ This project focuses on predicting product sales in the e-commerce domain using 
    - Focus on visualization and interpretability.
    - Utilization of SHAP (SHapley Additive exPlanations) for interpreting model results, hyperparameter optimization, and feature importance.
 
-## License
-This project is licensed under the MIT License.
-
-## Acknowledgments
-Acknowledgment of the tools used, giving credit to CatBoost and SHAP for their contributions to the project implementation.
+## License & Creadits 
+**Athiyaman M**
